@@ -200,8 +200,6 @@ const promptUser = () => {
     ]);
   };
   
- 
-  
   promptUser()
   .then(readmeData => {
     return generatePage(readmeData);
