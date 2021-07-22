@@ -1,6 +1,6 @@
-const generateSite = require('./utils/generate-site.js');
+const generateSite = require('./utils/generate-readme.js');
 const inquirer = require('inquirer');
-const { writeFile } = require('./utils/generate-site.js');
+const { writeFile } = require('./utils/generate-readme');
 const generatePage = require('./src/page-template');
 
 const promptUser = () => {
@@ -62,7 +62,7 @@ const promptUser = () => {
         name: 'functionality',
         message: 'What makes your project stand out? (Required)',
         validate: functionalityInput => {
-          if (funtionalityInput) {
+          if (functionalityInput) {
             return true;
           } else {
             console.log('Functionality field cannot be blank. Please try again.');
@@ -203,7 +203,6 @@ const promptUser = () => {
  
   
   promptUser()
-  .then(promptProject)
   .then(readmeData => {
     return generatePage(readmeData);
   })
