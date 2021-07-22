@@ -1,11 +1,7 @@
-# professional-readme-generator
+# portfolio-generator
 
 ## Description
-Want to spend more time working on your projects? Look no further.
-
-The Professional README.md Generator is a dedicated Node.js application that prompts user in the commandline information about their application's repository, including title of the project, deescription, table of contents, installation, usage, license, contibutions, tests, and questions.
-
-Once a user fills out these prompts, they are taken to the corresponding section the README.
+A dedicated Node.js application that prompts user in the commandline information about their professional career including their github profile username, and automatically generates a fully styled portfolio webpage without having to create any HTML or CSS.
 
 ## Languages
 * HTML
@@ -29,7 +25,7 @@ Once a user fills out these prompts, they are taken to the corresponding section
 1.) Git Clone the following onto your computer
 2.) Open root directory
 3.) Commandline type NPM Install to install packages and the inquire library
-4.) Once installed and no issues, type "node index" in the commandline
+4.) Once installed and no issues, type "node app" in the commandline
 
 ## Reference Image
 <img src="./assets/images/portfolio-generator.png"
