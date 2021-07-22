@@ -94,7 +94,7 @@ const promptUser = () => {
         name: 'functionality',
         message: 'What makes your project stand out? (Required)',
         validate: functionalityInput => {
-          if (funtionalityInput) {
+          if (functionalityInput) {
             return true;
           } else {
             console.log('Description field cannot be blank. Please try again.');
@@ -189,7 +189,7 @@ const promptUser = () => {
         name: 'licenseLink',
         message: 'What is the link to this license? (Required)',
         validate: licenseLinkInput => {
-          if (lincenseLinkInput) {
+          if (licenseLinkInput) {
             return true;
           } else {
             console.log('License Link cannot be blank.');

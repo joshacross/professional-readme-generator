@@ -1,4 +1,4 @@
-# professional-readme-generator
+# Professional README Generator
 
 ## Description
 Want to spend more time working on your projects? Look no further.
@@ -29,8 +29,8 @@ Once a user fills out these prompts, they are taken to the corresponding section
 1.) Git Clone the following onto your computer
 2.) Open root directory
 3.) Commandline type NPM Install to install packages and the inquire library
-4.) Once installed and no issues, type "node index" in the commandline
+4.) Once installed and no issues, type "npm start" in the commandline
 
 ## Reference Image
-<img src="./assets/images/portfolio-generator.png"
-    alt="Image of the applications generated portfolio web page" />
+<img src="./assets/images/Application.png"
+    alt="Image of inquirer prompts in the commandline" />

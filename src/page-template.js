@@ -1,3 +1,5 @@
+const readmedata = require('../index')
+
 // create the README
 const README = readmeText => {
     if (!readmeText) {
@@ -5,14 +7,14 @@ const README = readmeText => {
     }
 
     return `
-    # ${data.projectTitle}
+    # ${projectTitle}
 
     ## Description
     ${projectDescription}
     <br />
     <br />
     ### Solution
-    ${problemSolve}
+    ${problemSolution}
 
     ### Findings
     ${learning}
@@ -42,7 +44,8 @@ const README = readmeText => {
     * ${instructions}
 
     ## Contribution
-    * ${contribution}
+    * If you would like to contribute to this project, please follow these guides:
+    ** ${contribution}
     ## Tests
     * ${tests}
     ## Questions
@@ -54,7 +57,7 @@ const README = readmeText => {
     Email: ${email}
 
     ## Licenses
-    The following application is under the ${data.license}.
+    The following application is under the ${dataLicense}.
 
     For further information, please visit ${licenseLink}).
 
